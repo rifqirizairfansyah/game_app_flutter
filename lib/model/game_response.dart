@@ -11,6 +11,6 @@ class GameResponse {
       error = "";
 
   GameResponse.withError(String errorValue)
-    : games = List(),
+    : games = List,
       error = errorValue;
 }
